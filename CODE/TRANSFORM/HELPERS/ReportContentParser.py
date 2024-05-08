@@ -86,6 +86,7 @@ class ReportContentParser:
         tax_liabilities_and_grants=balance_sheet[40] # tax_liabilities_and_grants
         short_term_reserves=balance_sheet[42] # short_term_reserves
         current_bank_loans=balance_sheet[43] # current_bank_loans
+        short_term_financial_assistance=balance_sheet[44] # short_term_financial_assistance
 
 
         total_operating_revenues=profit_and_loss[0] # total_operating_revenues
@@ -167,6 +168,7 @@ class ReportContentParser:
             tax_liabilities_and_grants,
             short_term_reserves,
             current_bank_loans,
+            short_term_financial_assistance,
             total_operating_revenues,
             sales_revenue,
             revenue_from_the_sale_of_own_products_and_services,
@@ -268,6 +270,7 @@ class ReportContentParser:
         tax_liabilities_and_grants=balance_sheet[132] # tax_liabilities_and_grants
         short_term_reserves=balance_sheet[135] # short_term_reserves
         current_bank_loans=balance_sheet[138] # current_bank_loans
+        short_term_financial_assistance=balance_sheet[139] # short_term_financial_assistance
 
         total_operating_revenues=profit_and_loss[1] # total_operating_revenues
         sales_revenue=profit_and_loss[2] # sales_revenue
@@ -349,6 +352,7 @@ class ReportContentParser:
             tax_liabilities_and_grants,
             short_term_reserves,
             current_bank_loans,
+            short_term_financial_assistance,
             total_operating_revenues,
             sales_revenue,
             revenue_from_the_sale_of_own_products_and_services,
